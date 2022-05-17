@@ -1,0 +1,23 @@
+{
+  "name": "bmi-calculator-with-express",
+  "version": "1.0.0",
+  "description": "BMI calculator built with express.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohit-Saini7/BMI-calculator-with-express.js.git"
+  },
+  "author": "Rohit-Saini7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohit-Saini7/BMI-calculator-with-express.js/issues"
+  },
+  "homepage": "https://github.com/Rohit-Saini7/BMI-calculator-with-express.js#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
