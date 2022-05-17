@@ -16,7 +16,7 @@
   </head>
   <body class="text-center body">
     <main class="form-signin w-100 m-auto">
-      <form>
+      <form action="/bmicalc" method="post">
         <img class="mb-4" src="images/BMI-Icon.png" />
 
         <div class="form-floating">
@@ -24,6 +24,7 @@
             type="number"
             class="form-control"
             id="floatingInput"
+            name="weight"
             placeholder="e.g. 50"
             required
           />
@@ -36,6 +37,7 @@
             class="form-control"
             step="0.01"
             id="floatingHeight"
+            name="height"
             placeholder="e.g. 1.78"
             required
           />
